@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "expo": "^19.0.0",
+    "ramda": "^0.24.1",
     "react": "16.0.0-alpha.12",
     "react-dream": "^0.2.1",
     "react-native": "^0.46.1"
