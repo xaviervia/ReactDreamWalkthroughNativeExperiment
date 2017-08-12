@@ -1,11 +1,5 @@
 import React from 'react'
-import {
-  StyleSheet,
-  Text,
-  View,
-  TouchableWithoutFeedback,
-  Dimensions,
-} from 'react-native'
+import { Text, View, TouchableWithoutFeedback, Dimensions } from 'react-native'
 import { Motion, spring } from 'react-motion'
 
 export default class App extends React.Component {
@@ -17,7 +11,6 @@ export default class App extends React.Component {
     this.state = {
       x: windowSize.width / 2,
       y: windowSize.height / 2,
-      windowSize,
     }
 
     this.handlePress = this.handlePress.bind(this)
